@@ -52,31 +52,46 @@
 
     <body background="/img/tent.jpg">
 <!-- you've come to my domain -->
+<script>
+// this script is just for my curiousity... data isn't shared with anyone
+// and the only thing i am interested in is percentage of OS systems among
+// website viewers. i don't associate this data with your identity
+// i also don't use any cookies for this as you can see
+var OSName="null";
+if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
+if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
+if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX/Linux";
+if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
+var picreq = "img/poziarnik.jpg?os="+OSName;
+var systempic = new Image();
+systempic.src = picreq;
+</script>
     <div id="box">
         <h1> tentacles from outer space say hi</h1>
 	<p>
-	first things first, the author of the pic is this person: <a href="https://whvn.cc/667160">drobbe at wallhaven.cc</a>	
+	first things first, the author of the pic is this person: <a href="https://wallhaven.cc/w/zmgzzo">drobbe at wallhaven.cc</a>	
 	</p>
 	<h3> contact </h3>
 	<p>
-	probably the safest way to contact me is <a href="https://awoo.pub/@bugbear">mastodon</a> and if you want my email you should try to ask for it there
+	probably the safest way to contact me is <a href="https://awoo.pub/@bugbear">mastodon</a> or my <a href="https://twitter.com/duckinakilt">twitter</a>.
 	</p>
 	<p>
 	if you need my public key, you can find it here: <a href="/publickey.txt">PUBLIC PGP key</a>
 	</p>
 	<p>
-	if you use keybase you can contact me there <a href="https://keybase.io/captainkuromaru">my keybase<a/>
+	if you use <a href="https://keybase.io/captainkuromaru">keybase<a/> you can <a href="https://keybase.io/captainkuromaru">contact me<a/> there
 	</p>
 	<p>
  there's also my <a href="https://github.com/captainkuromaru">github</a> but i doubt you ever find anything interesting there.
 </p>
-	 <p>
-		 you can find my blog at <a href="https://tentaclesfromouter.space/blog"> BLAG </a> and if it's your thing, you can check out my wiki
-		 <a href="https://tentaclesfromouter.space/wiki/index.php">bugbear knows <i>something</i></a>
-	 </p>
 	<p>
 	if you wanna learn more <a href="https://37.neocities.org/html/about.html"> about me </a> you can go to my secondary website
-	<p>
+	</p>
+
+	 <p>
+	i am actually rebuilding  the <a href="./wiki/">wiki (bugbear knows <i>something</i>)</a> again (depending on when you check it out, it's either empty or it has its first entries)
+ 	 </p>
+	
     </div>
 
     <div id="youtube">
