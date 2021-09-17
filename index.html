@@ -1,102 +1,67 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
-	
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> purple tentacles </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <style type="text/css">
-                body {
-                         background-image: url("/img/tent.jpg");
-                          width: 100%;
-                          background-size: cover;
-                          background-repeat: no-repeat;
-                         overflow:hidden;
-			  color: black;
-			  text-size: 16px;
-}
-
-		#box {
-  text-align: center;
- // color: #424153;
-  color: black;
-  opacity: 0.9;
-  filter: alpha(opacity=90); // For IE
-  -moz-opacity:0.9; // For Firefox < 5.0
-  border: solid;
-  border-radius: 25px;
-  padding: 20px; 
-  width: 40%;
-  margin: 1%;
-  margin-top: 2%;
-  background-color: #996633;
-}
-
-
-@media screen and (max-width: 600px) {
-  #box {
-    width: 80%;
-    height: auto;
-    text-size: 1 em;
-    opacity: 1;
-  }
-   body {
-	background-color: #996633;
-     background-image: url("");
-   
-}
-}
-        </style>
+	<link rel="stylesheet" href="/css/style.css">
+	<script src="/js/secret.js"></script>
     </head>
 
-    <body background="/img/tent.jpg">
+    <body>
 <!-- you've come to my domain -->
-<script>
-// this script is just for my curiousity... data isn't shared with anyone
-// and the only thing i am interested in is percentage of OS systems among
-// website viewers. i don't associate this data with your identity
-// i also don't use any cookies for this as you can see
-var OSName="null";
-if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
-if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX/Linux";
-if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
-var picreq = "img/poziarnik.jpg?os="+OSName;
-var systempic = new Image();
-systempic.src = picreq;
-</script>
-    <div id="box">
-        <h1> tentacles from outer space say hi</h1>
+<div id="box">
+
+        <h1> here be tentacles </h1>
+	<div id="firstthingsfirst">
 	<p>
 	first things first, the author of the pic is this person: <a href="https://wallhaven.cc/w/zmgzzo">drobbe at wallhaven.cc</a>	
 	</p>
+</div>
 	<h3> contact </h3>
-	<p>
-	probably the safest way to contact me is <a href="https://awoo.pub/@bugbear">mastodon</a> or my <a href="https://twitter.com/duckinakilt">twitter</a>.
-	</p>
 	<p>
 	if you need my public key, you can find it here: <a href="/publickey.txt">PUBLIC PGP key</a>
 	</p>
 	<p>
-	if you use <a href="https://keybase.io/captainkuromaru">keybase<a/> you can <a href="https://keybase.io/captainkuromaru">contact me<a/> there
+	you can <a href="/contact_me.html">write me a message</a> through <a href="/contact_me.html">my email form</a> 
 	</p>
 	<p>
- there's also my <a href="https://github.com/captainkuromaru">github</a> but i doubt you ever find anything interesting there.
-</p>
-	<p>
-	if you wanna learn more <a href="https://37.neocities.org/html/about.html"> about me </a> you can go to my secondary website
+	you can <a href="https://keybase.io/kuromaru">contact me on keybase</a>, if you use it
 	</p>
-
+	<p>
+	after the <a href="https://en.wikipedia.org/wiki/Mastodon_(software)">mastodon (Wikipedia link)</a> instance i used before went down, i created a new account on another server: <a rel="me" href="https://tech.lgbt/@bugbear">@bugbear@tech.lgbt</a>
+	</p>
+	<p>
+	or just be boring and use <a href="https://twitter.com/duckinakilt">twitter @duckinakilt</a>
+	</p>
+	<h3> other stuff </h3>
 	 <p>
 	i am actually rebuilding  the <a href="./wiki/">wiki (bugbear knows <i>something</i>)</a> again (depending on when you check it out, it's either empty or it has its first entries)
+	</p>
+	<p>
+	you might be also looking for my <a href="./skladka/">files dump</a>.
  	 </p>
-	
+	<p>
+	and if you really don't know what else to do, check out <a href="./about.php">my about page</a>.
+	</p>
+<p>
+	<img id="visitors" src="/img/image2.php" width="250" height="150" alt="A man holding a sign with a number of visits this webpage has had today."/>
+</p>	
+<p>
+<a href="/blankpage.html">Blank page.</a>
+</p>
     </div>
 
-    <div id="youtube">
-
+    <div id="sidebar">
+	<h3> projects and other stuff</h3>
+	<ul>
+	  <li><a href="https://github.com/captainkuromaru">github</a></li>
+	  <li><a href="./skladka/">files dump</a></li>
+	  <li><a href="./wiki/">bugbear knows <i>something</i> (wiki)</a></li>
+	  <li><a href="./blbiny/aftm/">Automated Fortune Telling Machine</a></li>	  
+	</ul>
     </div>
+	<div id="loituma">
+	</div>
     </body>
 </html>
-
